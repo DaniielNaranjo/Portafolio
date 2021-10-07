@@ -5,6 +5,7 @@
 	.addEventListener('click', mas funcion de callback o anonima) - Capturar cualquier evento.
 	String.fromCharCode(event.KeyCode) - muestra la tecla que se esta escribiendo ( Evento KeyDown ) 
 	window.addEventListener("load", () => {}) - carga primero el DOM y despues el codigo javascritp
+	this - accede al objeto en donde se esta usando
 */
 
 window.addEventListener("load", () => {
@@ -29,6 +30,7 @@ window.addEventListener("load", () => {
 	// Evento Click
 	boton.addEventListener('click', function(){
 		cambiarColor();
+		this.style.border = "2px solid black";
 	});
 
 	// Evento Mouse Over
