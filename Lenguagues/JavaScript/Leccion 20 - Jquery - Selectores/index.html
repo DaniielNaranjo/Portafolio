@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Leccion 20 - Jquery - Selectores</title>
+	<script type="text/javascript" src="Selectores.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+
+	<style type="text/css">
+		.clase {
+			background: blue;
+			color: white;
+			border: 5px dashed black;
+		}	
+
+		.spans {
+			background: green;
+			color: white;
+			border: 3px dashed black;
+		}
+
+		.grande{
+			padding: 10px;
+		}
+
+		.margen-superior {
+			display: block;
+			margin-top: 45px ;
+		}
+
+		.resaltado {
+			border-bottom: 2px solid green;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<h1>Jquery</h1>
+
+	<hr>
+	<h2>Selectores ID</h2>
+	<p id="rojo"> parrafo rojo (ID)</p>
+	<p id="amarillo">parrafo amarillo (ID)</p>
+	<p id="verde">parrafo verde (ID)</p>
+
+	<hr>
+	<h2>Selectores Clases</h2>
+	<p class="clase"> parrafo (Clases)</p>
+	<p class="sinBorde">parrafo Click (Clases)</p>
+	<p class="sinBorde">parrafo Click (Clases)</p>
+	<p class="clase">parrafo (Clases)</p>
+
+	<hr>
+	<h2>Selectores Etiqueta</h2>
+	<span class="spans">Hola soy un span <br></span>
+	<span class="spans">Hola soy un span <br></span>
+	<span class="spans">Hola soy un span</span>
+
+	<hr>
+	<h2>Selectores Atributo</h2>
+
+	<ul>
+		<li><a href="https://www.google.com" title="Google">www.google.com</a></li>
+		<li><a href="https://www.facebook.com" title="Facebook">www.facebook.com</a></li>
+		<li><a href="https://www.youtube.com" title="YouTube">www.youtube.com</a></li>
+	</ul>
+
+	<hr>
+	<h2>Selectores Find y Parent</h2>
+	
+	<div id="caja">
+		<p>Hola soy una div</p>
+		<ul>
+			<li>Elemento 1</li>
+			<li id="elemento2">Elemento 2</li>
+			<li class="resaltado">Elemento 3</li>
+		</ul>
+		<span class="resaltado">soy un span</span>
+	</div>
+
+</body>
+</html>

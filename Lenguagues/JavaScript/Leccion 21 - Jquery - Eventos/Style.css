@@ -1,0 +1,66 @@
+#cajaOverYOut{
+		transition: 400ms all;
+		width: 200px;
+		height: 200px;
+		border: 2px solid black;
+		background: red;
+		margin: 10px;
+		text-align: center;
+	}
+
+#cajaHover{
+		transition: 400ms all;
+		width: 200px;
+		height: 200px;
+		border: 2px solid black;
+		background: orange;
+		margin: 10px;
+		text-align: center;
+	}
+
+#cajaClick {
+		transition: 400ms all;
+		width: 200px;
+		height: 200px;
+		border: 2px solid black;
+		background: yellow;
+		margin: 10px;
+		text-align: center;
+}
+
+#cajaDobleClick {
+		transition: 400ms all;
+		width: 200px;
+		height: 200px;
+		border: 2px solid black;
+		background: white;
+		margin: 10px;
+		text-align: center;
+}
+
+#nombre {
+	 padding: 10px;
+	 width: 300px;
+	 font-size: 20px;
+}
+
+#datos {
+		width: 318px;
+		height: 50px;
+		border: 2px solid black;
+		margin-top:10px;
+		text-align: center;
+		display: none;
+}
+
+#cajaMove{
+	width:25px;
+	height: 25px;
+	position: absolute;
+	display: block;
+	background: yellow;
+	opacity: 0.5;
+	border: 3px solid black;
+	border-radius: 999px;
+}
+

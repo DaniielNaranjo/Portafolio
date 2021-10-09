@@ -3,9 +3,39 @@
 <head>
 	<meta charset="utf-8">
 	<title>Leccion 16 - Local Storage - Almacenamiento local en el navegador</title>
-	<script type="text/javascript" src="LocalStorage.js"></script>
+	<!--<script type="text/javascript" src="LocalStorage.js"></script>-->
+	<script type="text/javascript" src="EjercicioLocalStorage.js"></script>
 </head>
 <body>
+	<h1>Local Storage - Almacenamiento local en el navegador</h1>
+	<div id="caja">
+		<h3>Cursos</h3>
+	</div>
+	<div id="datos">
+		<h3>Datos</h3>
+	</div>
+
+	<hr>
+	
+	<h1>Añade tu videojuego</h1>
+
+	<form action="" id="formVideojuegos">
+		<input type="text" name="addVideoJuego" id="nombreJuego" placeholder="Agregar VideoJuego">
+		<input type="submit" name="Agregar" id="addVideojuego" value="Agregar">
+	</form>
+
+	<h3>VideoJuegos</h3>
+	<div>
+		<ul id="cajaVideojuegos">
+			
+		</ul>
+	</div>
+
+	<h3>Borrar VideoJuego</h3>
+	<form action="" id="formBorrarVideojuegos">
+		<input type="text" name="deleteVideoJuego" id="deleteJuego" placeholder="Borrar VideoJuego">
+		<input type="submit" name="Borrar" id="deleteVideojuego" value="Borrar">
+	</form>
 
 </body>
 </html>
