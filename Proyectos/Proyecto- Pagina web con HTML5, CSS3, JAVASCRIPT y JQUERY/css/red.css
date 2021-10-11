@@ -1,0 +1,56 @@
+body{
+	background: url(../img/rojo.png);
+	background-attachment: fixed ;
+}
+
+#logo{
+	background: #CA3413;
+}
+
+#menu ul li:hover{
+	background: #EA4B28;
+}
+
+.buttonMore{
+	background: #CA3413;	
+}
+
+.buttonMore:hover{
+	background: #EA4B28;
+}
+
+form input[type="submit"]{
+	background: #CA3413; 
+	
+}
+
+form input[type="submit"]:hover{
+	background: #EA4B28;
+}
+
+#loginOut {
+	background: #CA3413;
+}
+
+#loginOut:hover {
+	background: #EA4B28;
+}
+
+.subir{
+	background: #CA3413;
+}
+
+.subir:hover{
+	background: #EA4B28;
+}
+
+#acordeon h3 {
+	background: #CA3413;
+	border-color: #CA3413;
+	color: white;
+	transition-duration: 700ms;
+}
+
+#acordeon h3:hover {
+	background: #EA4B28;
+}

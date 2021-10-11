@@ -1,0 +1,57 @@
+body{
+	background: url(../img/azul.jpg);
+	background-attachment: fixed ;
+}
+
+#logo{
+	background: #1F87C4;
+}
+
+#menu ul li:hover{
+	background: #2D9DDF;
+}
+
+.buttonMore{
+	background: #1F87C4;
+}
+
+.buttonMore:hover{
+	background: #2D9DDF;
+}
+
+form input[type="submit"]{
+	background: #1F87C4; 
+	
+}
+
+form input[type="submit"]:hover{
+	background: #2D9DDF;
+}
+
+#loginOut {
+	background: #1F87C4;
+}
+
+#loginOut:hover {
+	background: #2D9DDF;
+}
+
+
+.subir{
+	background: #1F87C4;
+}
+
+.subir:hover{
+	background: #2D9DDF;
+}
+
+#acordeon h3 {
+	background: #1F87C4;
+	border-color: #1F87C4;
+	color: white;
+	transition-duration: 700ms;
+}
+
+#acordeon h3:hover {
+	background: #2D9DDF;
+}
