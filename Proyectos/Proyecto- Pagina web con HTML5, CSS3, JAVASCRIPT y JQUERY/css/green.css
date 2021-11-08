@@ -1,0 +1,62 @@
+body{
+	background: url(../img/pasaje.jpg);
+	background-attachment: fixed ;
+}
+
+#logo{
+	background: #235E3D;
+}
+
+#menu ul li:hover{
+	background: #235E3D;
+}
+
+.buttonMore{
+	background: #235E3D;
+}
+
+.buttonMore:hover{
+	background: #247849;
+}
+
+form input[type="submit"]{
+	background: #235E3D; 
+	
+}
+
+form input[type="submit"]:hover{
+	background: #247849;
+}
+#loginOut {
+	background: #235E3D;
+}
+
+#loginOut:hover {
+	background: #247849;
+}
+
+.subir{
+	background: #235E3D;
+}
+
+.subir:hover{
+	background: #247849;
+}
+
+#acordeon h3 {
+	background: #235E3D;
+	border-color: #235E3D;
+	color: white;
+	transition-duration: 700ms;
+}
+
+#acordeon h3:hover {
+	background: #247849;
+}
+
+#reloj{
+	border: 5px solid #235E3D;
+	color: white;
+	background: rgba(24, 153, 81, 0.5);
+}
+
