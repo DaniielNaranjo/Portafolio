@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<title>Proyecto- Pagina web con HTML5, CSS3, JAVASCRIPT y JQUERY</title>
+
+	<!-- Scripts -->
+	
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.13.0/jquery-ui.min.js"></script>
+
+	<!-- Estilos Css -->
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.13.0/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.13.0/jquery-ui.structure.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.13.0/jquery-ui.theme.css">
+	<!-- Plugin validacion 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+	
+	-->
+	
+	<script type="text/javascript" src="js/jquery.form-validator.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+	<!--Principal-->
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+
+	<!--Botones temas-->
+	<div id="selector-theme">
+		<h4>Temas</h4>
+		<div id="to-green"></div>
+		<div id="to-red"></div>
+		<div id="to-blue"></div>
+	</div>
+
+	
+	<section id="global">
+
+		<!-- Cabecera -->
+		<header>
+			<div id="logo">
+				<h1>PORTAFOLIO</h1>	
+			</div>
+
+			<div class="clearfix"></div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">inicio</a></li>
+					<li><a href="reloj.html">reloj</a></li>
+					<li><a href="about.html">sobre mi</a></li>
+					<li><a href="contact.html">contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<!--Contenido -->
+		<section id="content">
+
+			<div id="boxContact">
+				<!--Cargar Contacto-->
+				<h2>Contacto</h2>
+
+				<form action="#" id="form_contact" method="POST">
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" data-validation="alphanumeric"/>
+
+					<label for="apellido">Apellido</label>
+					<input type="text" name="apellido" data-validation="alphanumeric" />
+
+					<label for="email">Email</label>
+					<input type="email" name="email" data-validation="email"/>
+
+					<label for="sexo">Sexo</label>
+					<select name="sexo" data-validation="required">
+						<option value="seleccionar">Seleccionar</option>
+						<option value="hombre">Hombre</option>
+						<option value="mujer">Mujer</option>
+					</select>
+
+					<label for="nacimiento">Fecha de nacimiento</label>
+					 <input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy" id="date">
+
+					<label for="edad">Edad</label>
+					<input type="number" name="edad" data-validation="number" />
+
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>¿Quien Soy?</span></h4>
+					<img src="img/Yo.jpg">
+
+					<p>Soy Harol Daniel Naranjo Yunez, Aprendiz de Analisis y Desarrollo de Sistemas de Informacion del Servicio Nacional de Aprendizaje(SENA), Tengo conocimientos preventivo y correctivo de mantenimiento de computadores, Poseo conocimiento de tecnologías como JavaScript y C#, Construcción de paginas web con HTML y CSS, Conocimientos de bases de datos relacionales con Microsoft SQL Server Management Studio básico, Manejo controlador de versiones con Git Hub Desktop, Soy una persona proactiva con ganas de aprender sobre mas tecnologías</p>
+				</div>
+
+			</aside>
+			<div class="clearfix"></div>
+		</section>
+
+
+
+	</section>
+
+	<footer>
+			
+		 <p>Proyecto - Pagina web con HTML5, CSS3, JAVASCRIPT y JQUERY</p>
+		 <p>Harol Daniel Naranjo Yunez</p>
+		 <a href="#" class="subir">Ir Arriba</a>
+
+	</footer>
+
+
+
+</body>
+</html>

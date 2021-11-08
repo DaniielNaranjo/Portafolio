@@ -117,6 +117,33 @@ window.addEventListener("load", () =>{
 			$("#acordeon").accordion();
 		}
 
+		//Reloj
+		if(window.location.href.indexOf('reloj') > -1){
+			setInterval(function(){
+				var meses = moment().locale("es").format('MMMM dddd YYYY');
+				var reloj = moment().format("hh:mm:ss");
+				$('#reloj').html("<span class='spanReloj' >" + reloj + "</span>" + " <br/> <br/>  <span class='spanHora' >" + meses) + " </span>" ;
+			}, 1000)
+			
+		}
+
+		//Valdiacion
+		if(window.location.href.indexOf('contact') > -1){
+
+			$.validate({
+		    lang: 'es',
+		    errorMessagePosition: 'top',
+		    scrollToTopOnError: true
+			});	
+
+			$("form input[name='date']").datepicker({
+
+				dateFormat: 'dd-mm-yy'
+
+				});
+
+		}
+
 
 	});
 })

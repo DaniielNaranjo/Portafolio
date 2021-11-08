@@ -55,3 +55,9 @@ form input[type="submit"]:hover{
 #acordeon h3:hover {
 	background: #2D9DDF;
 }
+
+#reloj{
+	border: 5px solid #1F87C4;
+	color: white;
+	background: rgba(45, 166, 237, 0.5);
+}
