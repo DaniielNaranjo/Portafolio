@@ -19,7 +19,7 @@
           <ul class="nav-menu nav-menu_visible">
                 <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
                 <li class="nav-menu-item"><a href="hojadevida.html" class="nav-menu-link nav-link">Hoja de vida</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-menu-link-active">Ingresar</a></li>
+                <li class="nav-menu-item"><a href="ingresar.html" class="nav-menu-link nav-link nav-menu-link-active">Ingresar</a></li>
           </ul>
         </nav>
     </header>
@@ -35,20 +35,19 @@
             </diV>
             <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f0f4ec;"></path></svg></div>
         </section>
-        <section class="introduccion">
-            <h1 class="title">Perfil Profesional</h1>   
-            <div class="perfil">
+        <section class="flex introduccion"> 
+            <figure class="caja perfil">
                 <img src="./img/foto.jpeg" alt="mi foto">
                 <h2>Harol Daniel Naranjo Yunez</h2>
                 <p>Desarrollador web</p>
-            </div>
+            </figure>
             <div class="perfil_personal">
                 <p>Soy un aprendiz de desarrollo web proactivo con capacidades de trabajar en equipo y ser autodidacta, soy una persona calmada, sociable y apasionado por el mundo de la tecnología y videojuegos.</p>
             </div>
        </section>
-       <section class="educacion">
-        <h1 class="title">Formacion educativa</h1>  
-        <div class="formacion">
+       <h1 class="title">Formacion educativa</h1>  
+       <section class="flex educacion">
+        <div class="caja formacion box">
             <h2>Servicio Nacional de Aprendizaje</h2>
             <h3>Tecnico en Sistemas</h3>
             <ul>
@@ -57,7 +56,7 @@
                 <li>nstalación de sistemas operativos, programas y accesorios</li>
             </ul>
         </div>
-        <div class="formacion">
+        <div class="caja formacion box">
             <h2>Servicio Nacional de Aprendizaje</h2>
             <h3>Analisis y Desarrollo Sistemas de Informacion</h3>
             <ul>
@@ -67,9 +66,9 @@
             </ul>
         </div>
         </section>
-        <section class="profesional">
-            <h1 class="title">Resumen Profesional</h1>  
-            <div class="trabajo">
+        <h1 class="title">Resumen Profesional</h1>  
+        <section class="flex profesional">
+            <div class="caja trabajo box">
                 <h2>Tecnico de Sistemas</h2>
                 <h3>Evalcom S.A.S</h3>
                 <h4>2019 Hasta 2020</h4>
@@ -79,7 +78,7 @@
                     <li>nstalación de sistemas operativos, programas y accesorios</li>
                 </ul>
             </div>
-            <div class="trabajo">
+            <div class="caja trabajo box">
                 <h2>Análisis y Desarrollo de Sistemas de Información</h2>
                 <h3>En Proceso</h3>
                 <ul>
@@ -89,17 +88,18 @@
                 </ul>
             </div>
         </section>
-        <section class="otros">
-            <h1 class="title">Hablidades y Contacto</h1>  
-            <div class="habilidades">
+        <h1 class="title">Hablidades y Contacto</h1>  
+        <section class="flex otros">
+            <div class="caja habilidades box">
                 <h2>lenguague de programacion</h2>
                 <ul>
                     <li>JavaScript (Jquery)</li>
                     <li>HTML5 y CSS3 (Flexbox)</li>
                     <li>C# (MVC)</li>
+                    <li>Microsoft SQL Server</li>
                 </ul>
             </div>
-            <div class="contacto">
+            <div class="caja contacto box">
                 <h2>Contacteme</h2>
                 <ul>
                     <li>Tel: 7777777</li>
@@ -108,6 +108,18 @@
                     <li>Github: <a href="https://github.com/DaniielNaranjo/Portafolio">Ir a Portafolio</a></li>
                     <li>Direccion: calle 83 sur # 91 - 48 Bogotá DC,</li>
                 </ul>
+            </div>
+        </section>
+        <h1 class="title">Certificados</h1>
+        <section class="flex certificados">
+            <div class="caja box">
+                <object class="certficado" type="application/pdf" data="./pdf/TituloSistemas.pdf"></object>
+            </div>
+            <div class="caja box">
+                <object class="certficado" type="application/pdf" data="./pdf/UniversidadCSS2021.pdf"></object>
+            </div>
+            <div class="caja box">
+                <object class="certficado" type="application/pdf" data="./pdf/UniversidadHTML2021.pdf"></object>
             </div>
         </section>
     </main>
